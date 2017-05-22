@@ -149,7 +149,6 @@ public class Controller {
         System.out.println(proxy.getHour());
         view.printMessage("Set hour 20: ");
         proxy.setHour(20);
-        view.printMessage("Get hour: ");
-        System.out.println(proxy.getHour());
+
     }
 }
